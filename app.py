@@ -6,6 +6,8 @@ from langchain.vectorstores import DocArrayInMemorySearch
 from langchain.chains import RetrievalQA
 
 app = Flask(__name__)
+import nltk
+nltk.download('punkt_tab')
 
 pdf_path = "Updated Remark App Description.pdf"
 google_api_key = 'AIzaSyAJLv_QjBn1QPliUJ6_CTR4peHzd2cXVYg'
