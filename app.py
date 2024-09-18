@@ -7,7 +7,7 @@ from langchain.chains import RetrievalQA
 
 app = Flask(__name__)
 
-pdf_path = "C:/Users/ADMIN/Downloads/data/langchain/Updated Remark App Description.pdf"
+pdf_path = "Updated Remark App Description.pdf"
 google_api_key = 'AIzaSyAJLv_QjBn1QPliUJ6_CTR4peHzd2cXVYg'
 embedding_model_path = "models/embedding-001"
 
